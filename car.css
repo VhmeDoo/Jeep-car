@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.car_main {
+  display: grid;
+  align-items: flex-start;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 80px;
+  gap: 50px;
+}
+
+.car_image {
+  height: 400px;
+  width: 100%;
+}
+
+.car_image img {
+  width: 100%;
+}
+
+.car {
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.car_info {
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.car_info .data_boxes {
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.car_info .data_boxes .data_box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.car_info .data_boxes .data_box span:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.car_info .data_boxes .data_box span:last-child {
+  font-size: 18px;
+}
+
+.car_desc {
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.car_desc p {
+  font-size: 18px;
+}
